@@ -65,11 +65,6 @@ function App() {
 
   return (
     <>
-    <head>
-      <style>
-        background-color: #212121
-      </style>
-    </head>
       <main className="flex flex-col justify-between items-center h-[100vh] max-w-[500px] m-auto">
         <header className="flex flex-row justify-center items-center p-1 min-w-full border-b border-neutral-300">
           {/* <Help className="text-neutral-500" /> */}
