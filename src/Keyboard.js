@@ -4,7 +4,7 @@ import Key from "./Key";
 import Backspace from "./icons/Backspace";
 
 const KEYS = `
-qwertyuiopğü
+qwertyuıopğü
 asdfghjklşi
 zxcvbnmöç
 `
