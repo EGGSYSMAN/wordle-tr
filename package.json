@@ -1,28 +1,31 @@
 {
-  "homepage": "http://mrsteelion.github.io/wordle",
-  "name": "wordle",
-  "version": "0.1.0",
+  "name": "wordle-tr",
+  "version": "1.0.0",
   "private": true,
+  "homepage": "https://mrsteelion.github.io/wordle-tr/",
   "dependencies": {
+    "@emotion/react": "^11.7.1",
+    "@emotion/styled": "^11.6.0",
+    "@fontsource/roboto": "^4.5.1",
+    "@mui/icons-material": "^5.3.0",
+    "@mui/material": "^5.3.0",
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
     "@testing-library/user-event": "^13.5.0",
-    "animate.css": "^4.1.1",
-    "classnames": "^2.3.1",
-    "gh-pages": "^3.2.3",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-helmet": "^6.1.0",
     "react-scripts": "5.0.0",
-    "save-dev": "^0.0.1-security",
-    "web-vitals": "^2.1.3"
+    "styled-components": "^5.3.3",
+    "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
@@ -43,9 +46,6 @@
     ]
   },
   "devDependencies": {
-    "autoprefixer": "^10.4.2",
-    "mini-css-extract-plugin": "^2.4.5",
-    "postcss": "^8.4.5",
-    "tailwindcss": "^3.0.15"
+    "gh-pages": "^3.2.3"
   }
 }
