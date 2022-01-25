@@ -4,9 +4,9 @@ import Key from "./Key";
 import Backspace from "./icons/Backspace";
 
 const KEYS = `
-qwertyuıopğü
-asdfghjklşi
-zxcvbnmöç
+QWERTYUIOPĞÜ
+ASDFGHJKLŞİ
+ZXCVBNMÖÇ
 `
   .trim()
   .split("\n")
