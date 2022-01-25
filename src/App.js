@@ -190,20 +190,20 @@ function App() {
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"></meta>
       </Helmet>
       <Container maxWidth="sm">
-        <div className="Header">WORDLE CLONE TÜRKÇE</div>
+        <div className="Header">WORDLE TÜRKÇE</div>
         <div className="App">
           <Backdrop
             sx={{ color: '#fff', zIndex: (theme) => theme.zIndex.drawer + 1 }}
             open={isWon}
             onClick={handleClose}>
-            You Won!
+            Tebrikler, cevabı buldun!
           </Backdrop>
           <Backdrop
             sx={{ color: '#fff', zIndex: (theme) => theme.zIndex.drawer + 1 }}
             open={isLost}
             onClick={handleClose}>
-            You Lost!
-            The answer was {solution}
+            Kaybettin!
+            Doğru Cevap: {solution}
           </Backdrop>
           <div className="Grid">
             {wordGrid.map((row, rowIndex) => (
