@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/wordle-tr/static/css/main.08fcaafb.css",
-    "main.js": "/wordle-tr/static/js/main.c73a9bf5.js",
+    "main.js": "/wordle-tr/static/js/main.609083f5.js",
     "static/media/roboto-all-500-normal.woff": "/wordle-tr/static/media/roboto-all-500-normal.52cb737b682eb9661ee1.woff",
     "static/media/roboto-all-700-normal.woff": "/wordle-tr/static/media/roboto-all-700-normal.ef6d1d09b20b877fee4e.woff",
     "static/media/roboto-all-400-normal.woff": "/wordle-tr/static/media/roboto-all-400-normal.376ea5d93f71583052f6.woff",
@@ -36,10 +36,10 @@
     "static/media/roboto-greek-ext-700-normal.woff2": "/wordle-tr/static/media/roboto-greek-ext-700-normal.9674bc0ae12c2551d9d1.woff2",
     "index.html": "/wordle-tr/index.html",
     "main.08fcaafb.css.map": "/wordle-tr/static/css/main.08fcaafb.css.map",
-    "main.c73a9bf5.js.map": "/wordle-tr/static/js/main.c73a9bf5.js.map"
+    "main.609083f5.js.map": "/wordle-tr/static/js/main.609083f5.js.map"
   },
   "entrypoints": [
     "static/css/main.08fcaafb.css",
-    "static/js/main.c73a9bf5.js"
+    "static/js/main.609083f5.js"
   ]
 }
