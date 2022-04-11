@@ -2,7 +2,7 @@
   "name": "wordle",
   "version": "2.0.0",
   "private": true,
-  "homepage": "https://mrsteelion.github.io/wordle-tr/",
+  "homepage": "https://eggsysman.github.io/wordle-tr/",
   "dependencies": {
     "@headlessui/react": "^1.4.2",
     "@heroicons/react": "^1.0.5",
